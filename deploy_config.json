@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/yeming285/yeming285.github.io",
+  "branch": "main",
+  "message": "Site updated: {{ now(\"YYYY-MM-DD HH:mm:ss\") }}",
+  "token": ""
+}
