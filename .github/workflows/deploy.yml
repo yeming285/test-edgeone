@@ -36,7 +36,7 @@ jobs:
       - name: Generate Static Files for Theme B
         run: |
           pwd
-          ll
+          ls
           cd hexoB
           npm install
           npm install hexo-deployer-git --save
