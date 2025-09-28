@@ -33,22 +33,6 @@ jobs:
           hexo clean
           hexo generate
 
-      - name: Generate Static Files for Theme B
-        run: |
-          pwd
-          ls
-          cd hexoB
-          npm install
-          npm install hexo-deployer-git --save
-          npm install hexo-cli -g
-          hexo clean
-          hexo generate
-          cd ..
-
-      - name: Move Theme B Output to Gallery
-        run: |
-          mv hexoB/public public/gallery
-
       - name: Configure Git
         run: |
           git config --global user.name 'github-actions[bot]'
